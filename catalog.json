@@ -8,6 +8,15 @@
       "version": "1.0.0",
       "authors": "HaoZhouGT",
       "path": "skills/d7-signal-sop"
+    },
+    {
+      "name": "journal-club-paper-review",
+      "summary": "Review a transportation research paper (or compare several) and prepare a journal-club presentation with the six-part guide - research problem and scope, contributions,\u2026",
+      "domain": "research-methods",
+      "status": "draft",
+      "version": "1.0.0",
+      "authors": "HaoZhouGT",
+      "path": "skills/journal-club-paper-review"
     }
   ]
 }

@@ -7,6 +7,11 @@ the job.
 The worked example for every step is [`skills/d7-signal-sop`](../skills/d7-signal-sop),
 built from the FDOT District 7 Traffic Signals SOP v1.5.
 
+A second example, [`skills/journal-club-paper-review`](../skills/journal-club-paper-review),
+is built from an instructor's guide for presenting journal papers. The SOP job is mostly
+procedure; this one is mostly judgment, so its main design choice is what the agent does
+and what the presenter decides (the "[Presenter's call]" items).
+
 | # | Step | What you write down | D7 example |
 |---|---|---|---|
 | 1 | **Name the job.** Who asks, what they need back, in what form. | One sentence, and three requests in the words people really use. | The signal team the morning after landfall needs action cards that cite the SOP. |

@@ -53,6 +53,7 @@ In practice, every skill here has:
 | Skill | What it does | Domain | Status | Version |
 |---|---|---|---|---|
 | [`d7-signal-sop`](skills/d7-signal-sop/SKILL.md) | Turn the FDOT District 7 Traffic Signals SOP (v1.5, June 2025) into action cards for hurricane response - pre-storm preparation, post-storm signal status from ATMS, gene… | emergency-response | draft | 1.0.0 |
+| [`journal-club-paper-review`](skills/journal-club-paper-review/SKILL.md) | Review a transportation research paper (or compare several) and prepare a journal-club presentation with the six-part guide - research problem and scope, contributions,… | research-methods | draft | 1.0.0 |
 <!-- catalog:end -->
 
 The table is rebuilt automatically after every merge. Want a skill that is not here? See
@@ -89,7 +90,9 @@ from (see its documentation). Leave `evals/` out: it holds the expected answers.
 ## Contribute
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), then [docs/WRITING_SKILLS.md](docs/WRITING_SKILLS.md).
-The worked example is [`skills/d7-signal-sop`](skills/d7-signal-sop). In short:
+The worked examples are [`skills/d7-signal-sop`](skills/d7-signal-sop), built from an agency SOP,
+and [`skills/journal-club-paper-review`](skills/journal-club-paper-review), built from an
+instructor's guide for presenting journal papers. In short:
 
 ```
 cp -r template/new-skill skills/<your-skill-name>
