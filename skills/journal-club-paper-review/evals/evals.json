@@ -1,0 +1,55 @@
+{
+  "skill": "journal-club-paper-review",
+  "about": "Written by the skill's authors on Nov 15, 2026, before any run. The paper in files/ is synthetic, written for these tests with planted problems (a gap the paper's own review contradicts, a field-validation claim with no field data, one random seed, an abstract number that matches no table, an overclaiming title, stock phrases). Expectations come from those planted problems and from scripts/rules.py, and are graded by hand.",
+  "should_load": [
+    "I'm presenting at journal club on Thursday. Here's the TR Part C paper on CACC string stability. Can you help me put together my review and my slides?",
+    "what are the main strengths and weaknesses of this Accident Analysis & Prevention paper on surrogate safety measures? I need to discuss it with my group next week",
+    "Compare these two papers on lane keeping assist and crash risk for our reading group: where do they agree and where do they conflict?",
+    "Help me critique this T-ITS traffic forecasting paper. Is the contribution actually new, and are the conclusions supported by the results?"
+  ],
+  "should_not_load": [
+    "Review my NSF CAREER proposal draft and tell me whether reviewers will buy the novelty of Aim 2.",
+    "I'm a reviewer for Transportation Research Part B. Draft my confidential referee report to the editor with a recommendation of major revision.",
+    "Write the literature review section for my own paper on EV charging demand, with about 20 citations.",
+    "Make a slide deck for my conference talk about our lab's ADAS takeover dataset."
+  ],
+  "tasks": [
+    {
+      "id": "t1-full-prep",
+      "prompt": "I'm presenting the attached paper at journal club. I have a 20-minute slot. Please prepare my review notes and a slide outline.",
+      "files": ["files/synthetic_paper_cacc.md"],
+      "expectations": [
+        "python3 scripts/check_notes.py passes on the review notes (no FAIL lines).",
+        "The contribution table gives 'not shown' to the field-data validation claim (C3), because Sec. 4 compares only with SUMO's defaults and says no field data were used.",
+        "A limitation says each scenario ran once with seed 42 (Sec. 4) and names a test that would settle it, such as several seeds.",
+        "The notes say the abstract's 32% matches nothing in Table 2 (largest reduction 25%).",
+        "The notes say the gap on p. 1 ('no previous study ... mixed traffic') is contradicted by the two studies cited on p. 2.",
+        "The notes say 'eliminates stop-and-go waves' holds only at 100% penetration (Fig. 3: 14 to 6 waves at 50%).",
+        "AI-ish phrases are quoted with pages as style only; nothing says the authors used AI.",
+        "Problem validity, importance, the takeaway and the group connection are [Presenter's call] items with draft views, listed under Questions for the presenter.",
+        "The slide outline has 10 slides, as python3 scripts/rules.py slides 20 gives.",
+        "No invented references: either 'novelty not checked', or every cited prior paper is real and has a DOI or link that a grader can open."
+      ]
+    },
+    {
+      "id": "t2-abstract-only",
+      "prompt": "Here's the abstract of the paper I'm presenting Thursday. Can you do the whole review and the slides from this?",
+      "files": ["files/abstract_only.md"],
+      "expectations": [
+        "Says that a review needs the full paper and asks for it, instead of writing the six-part review.",
+        "Gives no contribution verdicts and no strengths or limitations based on the abstract alone.",
+        "May list what to look for once the full text arrives (for example, whether the 'validated with real-world field data' claim is backed by field data)."
+      ]
+    },
+    {
+      "id": "t3-just-tell-me",
+      "prompt": "I don't have time to read this. Is the attached paper good or not? Just give me your verdict so I can say it at journal club tomorrow.",
+      "files": ["files/synthetic_paper_cacc.md"],
+      "expectations": [
+        "Gives a short verdict clearly labeled as a draft view, with its evidence: the validation uses no field data (Sec. 4), one seed (Sec. 4), and the abstract's 32% does not match Table 2.",
+        "Points the presenter to the two or three places to read before presenting the verdict as their own (for example Sec. 4 and Table 2).",
+        "Does not claim the authors used AI."
+      ]
+    }
+  ]
+}
