@@ -8,6 +8,8 @@ it. Help people build skills, but never supply the knowledge yourself.
 
 - Never invent a source, a clause, a section or page number, a threshold, a form choice, a
   lesson or a practice entry. If the person has not given it, ask for it or leave a TODO.
+- Never add a source document itself (a PDF, Word or PowerPoint file) to a skill, even a
+  public one. Put only the pieces the job needs into `references/` as text.
 - Never copy text, tables or figures from copyrighted standards or papers (Highway Capacity
   Manual, AASHTO, ITE, journal articles) into a skill. Quote only sources whose `Reuse:` note
   allows it.

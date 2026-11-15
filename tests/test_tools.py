@@ -68,7 +68,7 @@ def test_the_template_fails_until_filled_in():
     ('sources-checked: "2026-11-13"', 'sources-checked: "Nov 13"', "must be a date"),
     ("## Sources", "## Where it came from", "needs a '## Sources' section"),
     ("## Limits", "## Caveats", "needs a '## Limits' section"),
-    ("Reuse: public agency document,\n  quoted", "public agency document, quoted", "no 'Reuse:' note"),
+    ("Reuse: public agency document;", "public agency document;", "no 'Reuse:' note"),
     ("`assets/action_card.md`: the card", "`assets/card_format.md`: the card", "assets/card_format.md, which does not exist"),
 ])
 def test_checker_catches_each_problem(tmp_path, old, new, expected):
@@ -114,6 +114,12 @@ def test_scripts_need_tests_and_files_need_care(tmp_path):
     (f / ".env").write_text("X=1\n")
     e = errors(f)
     assert "an Anthropic API key" in e and "looks like a secrets file" in e
+
+
+def test_source_documents_stay_out(tmp_path):
+    f = copy_d7(tmp_path)
+    (f / "references" / "D7_Signal_SOP_v1.5.pdf").write_bytes(b"%PDF-1.7 synthetic")
+    assert "is a document file" in errors(f)
 
 
 def test_body_length_limit(tmp_path):

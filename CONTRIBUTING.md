@@ -85,6 +85,10 @@ metadata:
 
 Every item under `## Sources` in SKILL.md ends with a `Reuse:` note.
 
+**Never add the source document itself** (a PDF, Word or PowerPoint file), even a public one.
+Put only the pieces the job needs into `references/` as text, and say under `## Sources`
+where the full document can be found. The checker fails a skill that contains one.
+
 | Kind of source | Examples | What you may put in the skill | Reuse note |
 |---|---|---|---|
 | U.S. federal government work | MUTCD (FHWA), NHTSA complaint data, FARS manuals | Quote and copy. Works of the U.S. federal government are not under copyright in the U.S. | `Reuse: public domain (U.S. federal work)` |
@@ -134,5 +138,12 @@ publicly, ask the instructor for another way to submit.
 
 ## License
 
-By sending a pull request you agree that your contribution is released under the
-repository's [MIT license](LICENSE). Source documents keep their own terms.
+Everything you write here is released under the repository's [MIT license](LICENSE): anyone
+may use, copy, change and share it, including in paid work, as long as they keep the
+copyright notice. You keep the copyright to your own work; the license is the permission
+you give everyone else. GitHub's terms make this automatic: content added to a repository
+that has a license is licensed under the same terms, so there is no extra form to sign.
+
+Text you quote from a source is not yours to license, so the MIT license does not cover it.
+It keeps its source's terms, which is why every source needs a `Reuse:` note. If a skill
+quotes a source, say so in its `license:` field, as `skills/d7-signal-sop` does.

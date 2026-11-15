@@ -69,6 +69,9 @@ SECRET_PATTERNS = [
 ]
 FORBIDDEN_NAMES = re.compile(r"^(\.env.*|.*\.pem|.*\.key|credentials.*|.*secrets?\..*)$", re.I)
 JUNK_NAMES = re.compile(r"^(\.DS_Store|Thumbs\.db|__pycache__|.*\.pyc)$")
+# The source document itself never goes into a skill, even a public one: only the pieces
+# the job needs, as text in references/, with a link to where the document can be found.
+SOURCE_DOC_SUFFIXES = {".pdf", ".doc", ".docx", ".ppt", ".pptx", ".key", ".pages"}
 
 
 class Report:
@@ -336,6 +339,9 @@ def check_files(folder: Path, r: Report) -> None:
             continue
         if FORBIDDEN_NAMES.match(p.name):
             r.err(f"{rel} looks like a secrets file; never commit keys or passwords")
+        if p.suffix.lower() in SOURCE_DOC_SUFFIXES:
+            r.err(f"{rel} is a document file. A skill holds the pieces of a source it needs as text "
+                  "in references/, not the document itself; say in '## Sources' where to find it")
         size = p.stat().st_size
         total += size
         if size > MAX_FILE_MB * 1024 * 1024:

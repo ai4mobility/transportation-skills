@@ -115,5 +115,11 @@ study, or a licensed engineer's decision. Check every output before you act on i
 
 ## License
 
-Code and original text: [MIT](LICENSE). Source documents keep their own terms; each skill's
-`## Sources` section says how it reuses them.
+[MIT](LICENSE). Anyone may use, copy, change and share the skills and tools here, including
+in paid work, as long as they keep the copyright notice. They come with no warranty.
+
+Contributions come in under the same license (see [CONTRIBUTING.md](CONTRIBUTING.md#license)).
+
+Text a skill quotes from a source, such as SOP clauses or MUTCD provisions, keeps the
+source's own terms. Each skill's `## Sources` section says what those are. No source
+documents (PDFs and the like) are kept in this repository.

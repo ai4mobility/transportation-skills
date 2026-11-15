@@ -1,7 +1,7 @@
 ---
 name: d7-signal-sop
 description: Turn the FDOT District 7 Traffic Signals SOP (v1.5, June 2025) into action cards for hurricane response - pre-storm preparation, post-storm signal status from ATMS, generator deployment and refueling, SAT and DAT passes, eSTORM updates, emergency TWOs and DDIR funding. Use when someone asks what the signal team should do next before or after a storm in District 7, or asks whether a plan follows the SOP, even in field words ("the lights are dark", "top off the backup power"). Every action cites an SOP clause word for word; lessons from past storms come separately, as suggestions.
-license: MIT
+license: MIT for this skill's own text and code; the quoted SOP clauses remain FDOT's (see Sources)
 metadata:
   version: "1.0.0"
   status: "draft"
@@ -90,8 +90,8 @@ the field names.
 ## Sources
 
 - [S1] FDOT District 7 Traffic Signals SOP, v1.5, June 2025, PDF pages 5-11, as clauses in
-  `references/sop_text.md` and `references/clauses.json`. Reuse: public agency document,
-  quoted word for word (the same pages are in the course's public Lab 8 bundle).
+  `references/sop_text.md` and `references/clauses.json`. Reuse: public agency document;
+  only the clauses the job needs are quoted, word for word. The PDF itself is not included.
 - [S2] Lessons L1-L6 in `references/lessons.md`: FDOT Central Office TEOO slides, a
   Hillsborough County news release, St. Pete Catalyst, and a NOCoE case study; each is
   cited in the file. Reuse: paraphrased and cited, not copied.
