@@ -1,0 +1,913 @@
+{
+ "meta": {
+  "source": "FDOT District 7, Traffic Signals Standard Operating Procedures (SOP) Reference Guide, v1.5, June 2025. PDF pages 5-11, text by pdfplumber.",
+  "not_in_this_file": "Damage assessment pages and Appendix A (Field Checklist) are not included. Appendix B (Hurricane Response Zone Maps, PDF p. 24) and Appendix C (Responsibility Matrix, PDF p. 25) are blank in v1.5.",
+  "weights": {
+   "must": "shall / must / ensure / do not / a hard deadline (within N hours)",
+   "standard": "bare imperative: the default practice",
+   "consider": "consider / may / as needed / if necessary"
+  }
+ },
+ "clauses": [
+  {
+   "id": "Pre-Storm > One Month Prior > 1",
+   "page": 5,
+   "text": "Ensure eSTORM is fully updated.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 1.1",
+   "page": 5,
+   "text": "Test the application to confirm all new signals are added.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 1.2",
+   "page": 5,
+   "text": "Include speed feedback signs and flashers in addition to signals to aid in the Situational Awareness Team (SAT) and Damage Assessment Team (DAT) response.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 1.3",
+   "page": 5,
+   "text": "Conduct eSTORM and eSTORM Lite training sessions and verify user access for all necessary staff.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 1.3.1",
+   "page": 5,
+   "text": "Provide training for both SAT and DAT personnel, along with FDOT and consultant staffing",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 1.4",
+   "page": 5,
+   "text": "Print out a list of current traffic signals in eSTORM, eSTORM checklist, and eSTORM user guide.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 2",
+   "page": 5,
+   "text": "Provide eSTORM (Lite) access to local agencies and eSTORM (regular) access to CEI staff and inspectors.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 3",
+   "page": 5,
+   "text": "Pre-Event Contract Meeting",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 3.1",
+   "page": 5,
+   "text": "Review the contracting mechanism and confirm appropriate pay items. These are typically Z-Contracts or Permanent Signal Repair or Generator Deployments.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 3.2",
+   "page": 5,
+   "text": "Supplement or create additional H Contracts with Temporary and Permanent Repair Pay Items under Construction to assist with volume of work and resources.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 3.3",
+   "page": 5,
+   "text": "Meet with both CEI Leadership and Key Staff and provide sample Daily Work Orders and invoice deliverables with set expectations by Contract Managers.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 3.4",
+   "page": 5,
+   "text": "Meet with Z-Contractors and H-Contractors and provide Invoice Samples for expeditious approvals. Use examples of past contracts.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 4",
+   "page": 5,
+   "text": "Prepare/confirm list of SAT and DAT personnel. Compile phone numbers and email addresses.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 5",
+   "page": 5,
+   "text": "Pre-determine deployment corridors for the following signal assessment and generator deployment teams. Coordinate with FDOT and maintaining agencies.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 6",
+   "page": 5,
+   "text": "Print out route maps, list of contacts, and SLD, if necessary.",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 7",
+   "page": 5,
+   "text": "Identify signals located within construction projects.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 8",
+   "page": 5,
+   "text": "Ensure signal inventory list is up to date.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 9",
+   "page": 5,
+   "text": "Obtain cyber keys, or special keys if No. 2 keys are not utilized, from each agency.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 10",
+   "page": 5,
+   "text": "Test all generators to confirm they are operational.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 10.1",
+   "page": 5,
+   "text": "Ensure generators have proper cables.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 11",
+   "page": 5,
+   "text": "Use combination locks on generators for secure deployments.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 12",
+   "page": 5,
+   "text": "Consider adding geotags to generators to track location in real time. Or, consider QA Code designations for each generator to be updated for location and refueling.",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 13",
+   "page": 5,
+   "text": "Determine method for capturing and storing GPS coordinates.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 13.1",
+   "page": 5,
+   "text": "Consider use of mobile apps or devices with embedded geotagging (e.g., Solocator) capabilities",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 13.1.1",
+   "page": 5,
+   "text": "Ensure all personnel are trained in the chosen method.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 14",
+   "page": 6,
+   "text": "Utilize a streamlined group messaging option, such as WhatsApp or GroupMe, to create a text group for all key personnel to enable real-time communication before, during, and after the storm",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 15",
+   "page": 6,
+   "text": "Ensure employee access to ERS, InService, and eSTORM mailbox",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 16",
+   "page": 6,
+   "text": "Check food storage",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Month Prior > 16.1",
+   "page": 6,
+   "text": "Purchase water and non-perishable foods as needed",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 1",
+   "page": 6,
+   "text": "Conduct kickoff meetings for applicable personnel and agencies.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 1.1",
+   "page": 6,
+   "text": "Conduct training trainings for contractors on generator connection procedures with difference across local agencies. Remind Contractors/CEI to take photos of the damage and repairs with context.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 2",
+   "page": 6,
+   "text": "Contractor and Agency Coordination",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 2.1",
+   "page": 6,
+   "text": "Contact all contractors to confirm emergency contact details.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 2.2",
+   "page": 6,
+   "text": "Conduct outreach to all maintaining agencies and coordinate post event response plans and preferences.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 2.3",
+   "page": 6,
+   "text": "Verify that all appropriate parties have access to eSTORM and other agencies applications.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 2.4",
+   "page": 6,
+   "text": "Provide power company and utilities contact information.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 3",
+   "page": 6,
+   "text": "Tracking and Documentation",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 3.1",
+   "page": 6,
+   "text": "Distribute signal and damage tracking spreadsheet via shared link. Provide read-only access to the tracking spreadsheet for SAT assignments, generator deployments, and construction activities.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 4",
+   "page": 6,
+   "text": "Consider housing a contractor representative in the EOC or Tampa Operations.",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 5",
+   "page": 6,
+   "text": "Obtain contractor pay item list.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 6",
+   "page": 6,
+   "text": "Initiate and ramp up the deployment plan in coordination with field teams as storm track becomes clearer. Send notification emails to personnel outlining expected roles, reporting times, and deployment locations.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 7",
+   "page": 6,
+   "text": "Review which agencies have generators plugs and provide ‘How-To’ guidance for their use.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 7.1",
+   "page": 6,
+   "text": "Consider pre-positioning 5-8 generators in Pinellas County, Hillsborough County, and the City of Tamp for their immediate deployment at key, priority intersections.",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 8",
+   "page": 6,
+   "text": "Reserve hotels for personnel as needed.",
+   "weight": "consider"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 9",
+   "page": 6,
+   "text": "At the RTMC, check the building for leaks. Ensure generators are operational.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 10",
+   "page": 6,
+   "text": "Discuss tolling suspension plans in case of emergency evacuations.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 10.1",
+   "page": 6,
+   "text": "Preapprove website update for toll suspension/Governor Order",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 11",
+   "page": 6,
+   "text": "Test CCTV camera feeds and user log ins at the EOC level.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > One Week Prior > 12",
+   "page": 6,
+   "text": "Monitor arterial network and implement evacuation/revised timings at congested locations.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Days Prior > 1",
+   "page": 7,
+   "text": "FDOT to assign inspectors to each generator group and/or corridor.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Days Prior > 2",
+   "page": 7,
+   "text": "Tentatively assign Situational Awareness Teams (SAT) to designated corridors",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Days Prior > 3",
+   "page": 7,
+   "text": "Identify backup personnel in case team members are unable to deploy due to storm.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Days Prior > 4",
+   "page": 7,
+   "text": "Reallocate generators from Tampa Yard to Pinellas Yard as appropriate.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Days Prior > 5",
+   "page": 7,
+   "text": "Prioritize generators to Pinellas County and other agencies, as necessary.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 48 Hours Prior > 1",
+   "page": 7,
+   "text": "Determine prepositioning of crews",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 48 Hours Prior > 2",
+   "page": 7,
+   "text": "Request Funding: Seek pre-event funding approval from the D7 District Maintenance Engineer",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 48 Hours Prior > 3",
+   "page": 7,
+   "text": "Fuel and load generator onto trailers. Inspectors and FDOT to track NH #’s. Key or combinations to be provided by FDOT/CEI.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 48 Hours Prior > 4",
+   "page": 7,
+   "text": "Provide traffic operations personnel at Pinellas County TMC and other agencies, as necessary.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 24 Hours Prior > 1",
+   "page": 7,
+   "text": "Determine number of crews and when to deploy to field (to be determined by operations centers). Provide at least 6-hour notice for all crews.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > 24 Hours Prior > 2",
+   "page": 7,
+   "text": "Confirm routes, ensure generators are fueled, and verify all teams are prepared.",
+   "weight": "must"
+  },
+  {
+   "id": "Pre-Storm > 24 Hours Prior > 3",
+   "page": 7,
+   "text": "Recheck the 48-hour item decisions.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Hours Prior > 1",
+   "page": 7,
+   "text": "FDOT to provide finalized deployment routes to all generator teams and SAT based on where the storm hits.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Hours Prior > 2",
+   "page": 7,
+   "text": "Contact maintaining agencies to verify system status via ATMS signal system. Update eSTORM accordingly based on system checks.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Hours Prior > 2.1",
+   "page": 7,
+   "text": "Once systems checks are completed and eSTORM is updated, arterial RTMC personnel to reorder, prioritize, and distribute all hurricane response zone maps, including identifying priority routes, corridors, and zones for response efforts.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Hours Prior > 2.2",
+   "page": 7,
+   "text": "TMC personnel to determine generator deployment priorities, including whether generator teams are to deploy only at Priority #1 intersections or to all non-operational signals within their assigned zones.",
+   "weight": "standard"
+  },
+  {
+   "id": "Pre-Storm > Three Hours Prior > 3",
+   "page": 7,
+   "text": "Generator teams and SAT on standby for immediate deployment.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1",
+   "page": 8,
+   "text": "Use ATMS signal system to determine what corridors are functional, meaning the signal is actively communicating with the ATMS signal system.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1.1",
+   "page": 8,
+   "text": "If a signal is functioning within the ATMS signal system, the signal symbol will appear green.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1.1.1",
+   "page": 8,
+   "text": "This indicates the signal is actively communicating and operational.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1.1.2",
+   "page": 8,
+   "text": "All operational (green) signals in the ATMS signal system should be fully reflected in eSTORM.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1.2",
+   "page": 8,
+   "text": "Signals shown as yellow or red, meaning a signal is in flash or non-operational, respectively, and should be evaluated for further action.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 1.2.1",
+   "page": 8,
+   "text": "A yellow or red status in the ATMS signal system should be used to help prioritize SAT and generator deployment teams.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 2",
+   "page": 8,
+   "text": "Conduct an initial windshield survey of corridors. Utilize SATs and Local Agency input.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 2.1",
+   "page": 8,
+   "text": "SAT deployment teams to conduct the initial pass of all roadways immediately post storm, utilizing eSTORM Lite to document and report all findings.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 3",
+   "page": 8,
+   "text": "Generator Deployment and Management",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 3.1",
+   "page": 8,
+   "text": "Assign generators to teams and document: team name, generator NH #, and time/date deployed.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 3.2",
+   "page": 8,
+   "text": "Develop an ongoing refueling schedule based on fueling needs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 3.2.1",
+   "page": 8,
+   "text": "First refueling to occur six (6) hours after initial deployment",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 4",
+   "page": 8,
+   "text": "Status Updates and Coordination",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 4.1",
+   "page": 8,
+   "text": "Monitor intersections transitioning from generator power to commercial power. Use outage maps provided by power companies.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 4.2",
+   "page": 8,
+   "text": "Coordinate with agencies for local generator deployment and FDOT generator replacement.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 4.3",
+   "page": 8,
+   "text": "Track generator pickups and redeployments. Ensure proper check-in of generators returning to the yard.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 5",
+   "page": 8,
+   "text": "Operational Checks utilizing ATMS signal system. Confirm signals are operating correctly upon power restoration. Report any signals in flash or not functioning properly.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 6",
+   "page": 8,
+   "text": "Situational Awareness Team (SAT)",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 6.1",
+   "page": 8,
+   "text": "Deploy SAT to intersections and follow assigned corridors. SAT assessments will continue twice daily at 9:00 AM and 2:00 PM, as intermittent commercial power restoration is ongoing.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 6.2",
+   "page": 8,
+   "text": "Maintain share repair/tracking spreadsheet for ongoing coordination.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 6.3",
+   "page": 8,
+   "text": "Provide continuous updates on repair progress and issues encountered. eSTORM updates shall be made as soon as possible.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 6.4",
+   "page": 8,
+   "text": "Detailed assessments, including pictures of damage with GPS locations.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 7",
+   "page": 8,
+   "text": "Deploy DAT personnel. Consider requesting them to report signals, speed feedback signs, and beacons that are not found in eSTORM.",
+   "weight": "consider"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 8",
+   "page": 9,
+   "text": "Coordinate with the local agencies on repairs and equipment needs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 9",
+   "page": 9,
+   "text": "Additional Notes",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 9.1",
+   "page": 9,
+   "text": "Ensure all teams have access to necessary templates and tracking sheets.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 9.2",
+   "page": 9,
+   "text": "Maintain clear and consistent communication across all response teams utilizing a streamlined group messaging option, such as WhatsApp or GroupMe",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 9.3",
+   "page": 9,
+   "text": "Adjust deployment and repair strategies based on real-time field conditions.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Immediately Post Storm > 10",
+   "page": 9,
+   "text": "Consider using runners to investigate field requests.",
+   "weight": "consider"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 1",
+   "page": 9,
+   "text": "eSTORM to be constantly updated through the entire process to ensure Central Office is seeing the most up-to-date information.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 1.1",
+   "page": 9,
+   "text": "Download eSTORM data each hour to keep historical track of changes.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 2",
+   "page": 9,
+   "text": "Provide continuous updates on repair progress and issues encountered.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 3",
+   "page": 9,
+   "text": "Track generator pickups and redeployments. Reconcile between CEI check-in and FDOT NH #’s.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 4",
+   "page": 9,
+   "text": "Ensure proper check-in of generators returning to the yard.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 5",
+   "page": 9,
+   "text": "Daily status update conferences",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 6",
+   "page": 9,
+   "text": "Monitor intersections transitioning from generator power to commercial power.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > Ongoing Efforts > 7",
+   "page": 9,
+   "text": "Refueling generators",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 1",
+   "page": 9,
+   "text": "SAT assessments shall continue daily at 9:00 AM and 2:00 PM to verify status of commercial power restoration.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 1.1",
+   "page": 9,
+   "text": "As corridors are restored to commercial power, SATs can be modified to adjust resource needs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 2",
+   "page": 9,
+   "text": "Reduce the number of refueling teams as signals transition back to commercial power.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 3",
+   "page": 9,
+   "text": "Conduct districtwide damage assessments using ArcGIS Field Maps/eSTORM and/or Survey123.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 4",
+   "page": 9,
+   "text": "Load all damage, including sign-related damage, into the Damage Assessment Collector App",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 5",
+   "page": 9,
+   "text": "Upload and organize all damage pictures (Major Street @ Minor Street)",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6",
+   "page": 9,
+   "text": "Additional Funding Request",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.1",
+   "page": 9,
+   "text": "Filter and sort the new Damage Report to determine rough estimates for repairs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.1.1",
+   "page": 9,
+   "text": "Identify repair types and costs based on the following: emergency or permanent repairs, < $5,000 or => $5,000 making sure to sum all repairs and totals",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.2",
+   "page": 9,
+   "text": "If additional funds are needed for repairs,",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.2.1",
+   "page": 9,
+   "text": "Request pre-event funding approvals from D7 District Maintenance Engineer DDIR Requests and Central Office as indicated in the “48 Hours Prior to Storm Event” Pre-Storm Section.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.2.2",
+   "page": 9,
+   "text": "Email D7 with previous request/approval email chain.",
+   "weight": "standard"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.2.3",
+   "page": 9,
+   "text": "Load request into Central Office SharePoint site as a “NEW” request. Do not edit existing requests.",
+   "weight": "must"
+  },
+  {
+   "id": "Post-Storm > 0-1 Week Post Storm > 6.2.4",
+   "page": 9,
+   "text": "Check the green arrow after the request is loaded.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 1",
+   "page": 10,
+   "text": "TWOs to be issued once a State of Emergency is ordered for the area and funding has been programmed or appropriated. Obtain a copy of the official TWO and any extensions.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 2",
+   "page": 10,
+   "text": "Confirm FPIDs are issued and programmed.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 2.1",
+   "page": 10,
+   "text": "This will typically happen either concurrently with or immediately after the issuance of the emergency TWO depending on the urgency and type of work involved.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 3",
+   "page": 10,
+   "text": "Issue all Emergency (both Temporary and Permanent) Work Orders.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 3.1",
+   "page": 10,
+   "text": "Understand when emergency permanent repairs can be issued.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 4",
+   "page": 10,
+   "text": "Coordinate with DDIR team to determine what grouping is required.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 5",
+   "page": 10,
+   "text": "Email list of emergency DDIR requests to DDIR team after issuance of emergency TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 6",
+   "page": 10,
+   "text": "Confirm FPIDs are issued and programmed.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 7",
+   "page": 10,
+   "text": "Once funding request is approved by D7 and CO, begin to issue emergency TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 8",
+   "page": 10,
+   "text": "After TWOs are issued and when available, enter DDIR and FPID numbers into TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 9",
+   "page": 10,
+   "text": "Encumber funds in CFM against applicable FPIDs within 24 hours.",
+   "weight": "must"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 10",
+   "page": 10,
+   "text": "Track, inspect, and close.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 11",
+   "page": 10,
+   "text": "Pay invoice and email final bill to DDIR team.",
+   "weight": "standard"
+  },
+  {
+   "id": "TWO > Emergency TWOs > 12",
+   "page": 10,
+   "text": "Do not issue emergency TWO after expiration of governor’s executive order.",
+   "weight": "must"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 1",
+   "page": 10,
+   "text": "Identify all emergency and permanent repairs (per Object ID or grouped within ¼ mile) with a repair cost of $5000 or greater.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 2",
+   "page": 10,
+   "text": "Email a DDIR request to DDIR team for both emergency and permanent repairs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 2.1",
+   "page": 10,
+   "text": "Emergency and permanent repairs within the same Object ID or grouped with ¼ mile may be included in the same DDIR if the total cost exceeds $5,000. The DDIR must distinguish between emergency work and permanent repairs.",
+   "weight": "must"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 3",
+   "page": 10,
+   "text": "Once DDIRs are approved, take list to Work Program for team to issue FPIDs for emergency and/or permanent repairs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 4",
+   "page": 10,
+   "text": "After DDIR-related FPIDs are issued, wait for approval of DDIR by FHWA. Log the DDIR and FPIDs with each TWO in the tracking spreadsheet.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 5",
+   "page": 10,
+   "text": "Draft the permanent TWOs and determine total repair costs for each FPID.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 6",
+   "page": 10,
+   "text": "Program (Work Program) and encumber funds (CFM) against applicable FPIDs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 7",
+   "page": 10,
+   "text": "Issue permanent TWOs and copy in DDIR team.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 8",
+   "page": 10,
+   "text": "Track, inspect, and close Permanent TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 9",
+   "page": 10,
+   "text": "Pay invoice and email final bill to DDIR team.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 10",
+   "page": 10,
+   "text": "Email all TWOs and include DDIR team so they are aware of pending costs and can track repairs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-1 Month Post Storm > 11",
+   "page": 10,
+   "text": "Give final contract repair costs to DDIR team upon final acceptance of both emergency and permanent TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 1",
+   "page": 11,
+   "text": "After funding request is approved by D7 and CO, begin to gather DDIR and FPIDs for permanent TWOs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 2",
+   "page": 11,
+   "text": "Draft the permanent TWOs and determine total repair costs for each FPID.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 3",
+   "page": 11,
+   "text": "Encumber funds against applicable FPIDs.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 4",
+   "page": 11,
+   "text": "Issue permanent TWOs and cc DDIR team.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 5",
+   "page": 11,
+   "text": "Track, inspect, close.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 6",
+   "page": 11,
+   "text": "Pay invoice and email final bill to DDIR team.",
+   "weight": "standard"
+  },
+  {
+   "id": "Funding > 0-4 Months Post Storm > 7",
+   "page": 11,
+   "text": "Do not issue emergency TWO after expiration of governor’s executive order.",
+   "weight": "must"
+  }
+ ]
+}

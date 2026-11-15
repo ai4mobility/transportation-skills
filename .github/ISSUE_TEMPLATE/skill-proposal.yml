@@ -1,0 +1,67 @@
+name: Skill proposal
+description: Propose a skill, or claim one from SKILLS_WANTED.md, so two people do not build the same one.
+title: "Skill: <suggested-name>"
+labels: ["skill proposal"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Suggested name
+      description: Lowercase words and hyphens, naming the job (for example mutcd-provision-lookup).
+    validations:
+      required: true
+  - type: textarea
+    id: job
+    attributes:
+      label: The job
+      description: Who asks, what they need back, in what form. Give two requests in the words people really use.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: The manuals, SOPs, datasets or people the knowledge comes from, with edition or date.
+    validations:
+      required: true
+  - type: dropdown
+    id: reuse
+    attributes:
+      label: Can the main source be quoted in an open repository?
+      options:
+        - "Yes: U.S. federal work (public domain)"
+        - "Yes: public agency document (terms checked)"
+        - "Yes: open license"
+        - "Only with permission (I have it, or will ask)"
+        - "No: cited only (I will write the steps in my own words)"
+        - "Not sure"
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - manuals-and-standards
+        - safety-data
+        - simulation
+        - traffic-operations
+        - emergency-response
+        - data-feeds
+        - vehicle-technology
+        - planning-and-design
+        - research-methods
+        - agency-forms
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: A practicing professional who could review it (role and agency, no name needed)
+      description: Optional. Needed later to reach the "reviewed" status.
+  - type: checkboxes
+    id: claim
+    attributes:
+      label: Building it
+      options:
+        - label: I plan to build this skill myself

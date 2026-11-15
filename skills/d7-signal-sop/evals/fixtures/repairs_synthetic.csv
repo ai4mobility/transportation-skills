@@ -1,0 +1,9 @@
+repair_id,object_id,lat,lon,cost,kind,note
+R1,SIG-1041,27.9650,-82.7300,3200,emergency,SYNTHETIC: two signal heads hanging
+R2,SIG-1041,27.9650,-82.7300,2400,permanent,SYNTHETIC: replace span-wire hardware
+R3,SIG-1043,27.9750,-82.7300,2600,emergency,SYNTHETIC: cabinet door torn off
+R4,SIG-1044,27.9779,-82.7300,2400,permanent,SYNTHETIC: detection camera replacement
+R5,SIG-1050,27.9850,-82.7300,4100,permanent,SYNTHETIC: pedestrian heads replacement
+R6,SIG-1060,27.9950,-82.7300,1800,emergency,SYNTHETIC: backplates missing
+R7,SIG-1061,27.9980,-82.7300,2100,emergency,SYNTHETIC: visors bent
+R8,SIG-1062,28.0010,-82.7300,1900,permanent,SYNTHETIC: illuminated street sign

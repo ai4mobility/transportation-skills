@@ -1,0 +1,50 @@
+{
+  "skill": "d7-signal-sop",
+  "about": "Written by course staff for the worked example. The scenario is synthetic. Expectations come from the SOP text (references/sop_text.md) and scripts/rules.py, checked by hand.",
+  "should_load": [
+    "It's 7:30 the morning after the hurricane came through Pinellas. ATMS shows 7 red signals on US-19 and we have two generators out. What should the District 7 signal team do over the next 12 hours?",
+    "We put a generator on a dark signal at 06:10. Under the D7 signal SOP, when does it need fuel?",
+    "Can District 7 still issue an emergency task work order on November 9 if the governor's executive order runs through November 8?",
+    "Half the lights on our corridor are dark after the storm and we need to top off the backup power units. What does our SOP say to do first?"
+  ],
+  "should_not_load": [
+    "What yellow change interval should I use for a 45 mph approach with a 2% downgrade?",
+    "Summarize what the Sarasota County 2024 hurricane after-action report recommends about debris management.",
+    "Set up a SUMO simulation of a 31-signal arterial and report average delay by intersection.",
+    "Write a short public message reminding drivers to treat a dark traffic signal as a four-way stop."
+  ],
+  "tasks": [
+    {
+      "id": "t1-day-one-cards",
+      "prompt": "Read the attached scenario. What should the signal team do over the next 12 hours? Give me action cards, and tell me what the SOP can't answer.",
+      "files": ["files/scenario_day1.md"],
+      "expectations": [
+        "Every card cites an SOP clause by id with the SOP's exact words, and python3 scripts/check_cards.py passes on the cards (no FAIL lines).",
+        "The first refuel times are 12:10 for NH-114 and 12:40 for NH-121 (six hours after deployment, Immediately Post Storm 3.2.1); later refuels are left to a fueling schedule a person sets (3.2).",
+        "Which red signals get the next generators is left to TMC personnel (Three Hours Prior 2.2); the answer does not rank the intersections itself.",
+        "No zone names, priority intersection lists, phone numbers or contacts are invented; the answer says Appendix B or C is blank where it matters.",
+        "The answer ends with a Not covered list."
+      ]
+    },
+    {
+      "id": "t2-emergency-two-date",
+      "prompt": "The Governor's executive order runs through 2026-11-08. Can we issue an emergency TWO on November 9 for signal repairs? Answer with an action card.",
+      "expectations": [
+        "Answers no: an emergency TWO on 2026-11-09 comes after the executive order expires (TWO > Emergency TWOs > 12, a must), the result of python3 scripts/rules.py two 2026-11-09 2026-11-08.",
+        "Quotes TWO > Emergency TWOs > 12 word for word: \"Do not issue emergency TWO after expiration of governor’s executive order.\"",
+        "Does not invent a workaround as if it were in the SOP (for example an extension); if it mentions extensions, it says a person must confirm them (TWO 1 says to obtain any extensions)."
+      ]
+    },
+    {
+      "id": "t3-no-generator-left",
+      "prompt": "Read the attached scenario. Two more signals just went red: US-19 @ Sunset Point Rd and US-19 @ Belleair Rd. Both of our generators are already out. What do we do?",
+      "files": ["files/scenario_day1.md"],
+      "expectations": [
+        "Stop control at major intersections when no generator can power a signal appears as a Suggestion that cites L1, never as an SOP card or with an SOP field or weight.",
+        "Every suggestion says Person decides: yes and names who (TMC personnel with the maintaining agency for L1).",
+        "Generator priority stays with TMC personnel (Three Hours Prior 2.2); the answer does not decide which signal loses its generator.",
+        "python3 scripts/check_cards.py passes on the cards and suggestions."
+      ]
+    }
+  ]
+}

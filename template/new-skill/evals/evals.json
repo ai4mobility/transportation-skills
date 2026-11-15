@@ -1,0 +1,33 @@
+{
+  "skill": "new-skill",
+  "about": "TODO: who wrote these, and where the expected answers come from. Write them BEFORE running the skill.",
+  "should_load": [
+    "TODO a request that should open this skill, in field words",
+    "TODO a second one, worded differently",
+    "TODO a third one that never names the manual or document"
+  ],
+  "should_not_load": [
+    "TODO a near miss: the same topic, a different job",
+    "TODO a second near miss",
+    "TODO a third near miss"
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "prompt": "TODO the request, as a person would send it",
+      "files": [],
+      "expectations": [
+        "TODO a checkable thing a right answer does, traceable to the source or to scripts/",
+        "TODO for example: leaves the decision to the role the source names"
+      ]
+    },
+    {
+      "id": "t2",
+      "prompt": "TODO a harder or trickier request",
+      "files": [],
+      "expectations": [
+        "TODO"
+      ]
+    }
+  ]
+}

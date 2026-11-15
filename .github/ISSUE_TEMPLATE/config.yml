@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to write a skill
+    url: https://github.com/ai4mobility/transportation-skills/blob/main/docs/WRITING_SKILLS.md
+    about: The eight steps, with the D7 signal SOP as the worked example.

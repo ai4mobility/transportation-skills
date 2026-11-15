@@ -1,0 +1,35 @@
+name: catalog
+
+# After a merge to main, rebuild the skill table in README.md and catalog.json,
+# so contributors never edit README.md for a new skill.
+
+on:
+  push:
+    branches: [main]
+    paths: ["skills/**", "tools/build_catalog.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-dev.txt
+      - run: python tools/build_catalog.py
+      - name: Commit the catalog if it changed
+        run: |
+          if git diff --quiet -- README.md catalog.json; then
+            echo "The catalog is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md catalog.json
+          git commit -m "Update the skill catalog"
+          git push

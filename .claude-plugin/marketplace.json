@@ -1,0 +1,19 @@
+{
+  "name": "ai4mobility",
+  "description": "Open agent skills for transportation research and agency practice, from AI for Mobility (CGN 6933, USF).",
+  "owner": {
+    "name": "AI for Mobility (Hao Zhou)",
+    "url": "https://ai4mobility.github.io"
+  },
+  "plugins": [
+    {
+      "name": "transportation-skills",
+      "source": "./",
+      "description": "Every skill in skills/: manuals and SOPs, safety data, simulation, traffic operations, agency practice. Check each skill's status (draft, tested, reviewed) in the README before you rely on it.",
+      "category": "transportation",
+      "tags": ["transportation", "traffic", "safety", "simulation", "agency", "mutcd", "sumo"],
+      "homepage": "https://github.com/ai4mobility/transportation-skills",
+      "license": "MIT"
+    }
+  ]
+}

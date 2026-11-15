@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "d7-signal-sop",
+      "summary": "Turn the FDOT District 7 Traffic Signals SOP (v1.5, June 2025) into action cards for hurricane response - pre-storm preparation, post-storm signal status from ATMS, gene\u2026",
+      "domain": "emergency-response",
+      "status": "draft",
+      "version": "1.0.0",
+      "authors": "HaoZhouGT",
+      "path": "skills/d7-signal-sop"
+    }
+  ]
+}

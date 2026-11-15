@@ -1,0 +1,38 @@
+name: release
+
+# Push a tag like v2026.11.17 to publish one zip per skill on the Releases page.
+# Run it by hand (Actions > release > Run workflow) to get the zips as a download
+# without making a release.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  zips:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-dev.txt
+      - run: python tools/package_skills.py
+      - name: Publish the release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          body: |
+            One zip per skill. In claude.ai: Customize > Skills > Upload a skill.
+            Check each skill's status (draft, tested, reviewed) in the README before you rely on it.
+      - name: Keep the zips as a download
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-zips
+          path: dist/*.zip
